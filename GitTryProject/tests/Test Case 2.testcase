@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase guid="e8d348f2-4b00-4c61-bab5-9757de0675ce">
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" guid="5f62bcc7-8933-4137-b830-65f3423ea625" name="SetValues" testItemId="1" title="Set Values: A">
+      <arguments>
+        <argument id="values">
+          <value class="valueList" mutable="Mutable">
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">A</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="value" valueClass="string">kuchbhi</value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+          </value>
+        </argument>
+      </arguments>
+    </apiCall>
+  </steps>
+</testCase>
