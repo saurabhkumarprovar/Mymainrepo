@@ -17,5 +17,8 @@ public class MyPageObject {
 	@TextType()
 	@FindBy(xpath = "//div[@data-cel-widget='Navigation-desktop-navbar']//input[@id='twotabsearchtextbox']")
 	public WebElement searchAmazonIn;
+	@ButtonType()
+	@FindBy(xpath = "//input[@id='nav-search-submit-button']")
+	public WebElement go;
 			
 }
